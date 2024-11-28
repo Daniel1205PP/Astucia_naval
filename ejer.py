@@ -1,3 +1,5 @@
+# Buenas Noches - Tardes - Noches Profesor Nestor German Bolivar
+# Aca esta la segunda entrega  
 # Definicion de variables (remplaza los valores con los que te proporciona)
 V = 100  # numero de vacas
 A = 200  # numero de aves
