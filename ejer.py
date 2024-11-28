@@ -19,6 +19,7 @@ def produccion_huevos(A):
     
     huevos_rapidos_mes = gallinas_rapidas * (30 // 3)
     huevos_lentas_mes = gallinas_lentas * (30 // 5)
+    
     huevos_totales = huevos_rapidos_mes + huevos_lentas_mes
     return huevos_totales
 
