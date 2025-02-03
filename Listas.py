@@ -19,7 +19,6 @@ def cadena_con_vocales(lista):
 def lista_palindroma(lista):
     return lista == lista[::-1]
 
-# Ejemplo de uso
 lista1 = [1, 2, 3, 4, 5]
 lista2 = ["oso", "perro", "radar", "casa"]
 lista3 = ["hola", "aeiou", "python", "code"]
