@@ -34,7 +34,7 @@ def calcular_promedio(lista):
 def contar_ocurrencias(lista, caracter):
     return lista.count(caracter)
 
-# Ejemplo de uso
+
 numeros = list(map(float, input("Ingrese una lista de números separados por espacios: ").split()))
 resultado = encontrar_maximo(numeros)
 print("El valor máximo encontrado es:", resultado)
