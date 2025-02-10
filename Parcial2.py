@@ -40,4 +40,19 @@ numeros = [4.5, 8.2, 5.6, 2.5]
 promedio = calcular_promedio(numeros)
 print("El promedio es ", promedio)
 
-# 5. desarrola un algoritmo que determine la madiana de un arreglo de enteros. la madiana es el numero que queda en la mitad del arreglo despues de ser ordenado 
+# 5. desarrola un algoritmo que determine la madiana de un arreglo de enteros. la madiana es el numero que queda en la mitad del arreglo despues de ser ordenado
+
+def calcular_media(arreglo):
+    if not arreglo:
+        return None
+    arreglo_ordenado = sorted(arreglo)
+    n = len(arreglo_ordenado)
+    medio = n // 2 
+    if n % 2 == 1:
+        return arreglo_ordenado[medio]
+    else:
+        return(arreglo_ordenado[medio - 1] + arreglo_ordenado[medio]) / 2
+
+numeros = [3, 4, 7, 9]
+mediana = calcular_media(numeros)
+print("la mediana es", mediana)
